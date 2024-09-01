@@ -1,4 +1,4 @@
-import {createContext, useEffect, useReducer, useState} from "react";
+import {createContext, useEffect, useReducer} from "react";
 import {createUserDocumentFromAuth, onAuthStateChangeListener} from "../utils/firebase/firebase.utils";
 
 export const USER_ACTION_TYPES = {
